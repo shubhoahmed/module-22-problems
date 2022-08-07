@@ -18,4 +18,10 @@ console.log(typeof (isIndependent));
 console.log(typeof (friends));
 console.log(typeof (students));
 console.log(typeof (add));
-console.log(Array.isArray(friends));
+console.log(Array.isArray(friends)); // Its exception you should remind it.
+// we can use include() in array
+console.log(friends.includes(25));
+// make pair on two array using concat
+const newFriend = [47, 34, 53, 62,];
+const allFriend = newFriend.concat(friends);
+console.log(allFriend)
